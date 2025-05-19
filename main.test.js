@@ -1,12 +1,55 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let a = 13
+let b = 9
+let c = 0
 
+let name = "Adamus";
+let lastName = "Finnell II";
+let trafficLight = "red";
 
+function addition() {
+  c = a + b
+}
+addition()
 
+function subtraction() {
+  c = a - b
+}
+subtraction()
 
+function multiplication() {
+  c = a * b;
+}
 
+multiplication()
 
+function division() {
+  c = a / b;
+}
+division()
+
+function incrementA() {
+  a++;
+}
+incrementA()
+
+function decrementB() {
+  b--;
+}
+decrementB()
+
+function fullName() {
+ name + " " + lastName;
+}
+fullName()
+console.log(fullName)
+
+function lightChange() {
+  trafficLight = "green";
+}
+lightChange()
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
@@ -72,6 +115,7 @@ if (typeof lightChange === 'undefined') {
 }
 
 const assert = require('assert');
+const { clear } = require('console');
 
 // Mocha tests
 describe('Getting Funcy Tests', () => {
